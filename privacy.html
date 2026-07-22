@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="privacyPageTitle">
+      Privacy Policy | Swiss Kitchen & Wardrobe
+    </title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- SEO Description الخاص بصفحة الخصوصية -->
+    <meta
+      name="description"
+      content="Privacy Policy for Swiss Kitchen & Wardrobe. Learn how we collect, use, and protect your personal data."
+    />
+
+    <!-- Canonical الخاص بنفس الصفحة -->
+    <link
+      rel="canonical"
+      href="https://swisskitchenswardrobe.com/privacy.html"
+    />
+
+    <!-- Open Graph (في حال تم مشاركة رابط صفحة الخصوصية على السوشيال ميديا) -->
+    <meta
+      property="og:title"
+      content="Privacy Policy | Swiss Kitchen & Wardrobe"
+    />
+    <meta
+      property="og:description"
+      content="Learn how we protect your personal data."
+    />
+    <meta
+      property="og:image"
+      content="https://swisskitchenswardrobe.com/img/logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://swisskitchenswardrobe.com/privacy.html"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Font Awesome & CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- الهيدر الاحترافي -->
+    <header class="site-header">
+      <button id="langSwitcher" class="lang-btn" onclick="toggleLanguage()">
+        <i class="fa-solid fa-globe"></i> <span class="lang-text">عربي</span>
+      </button>
+
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo.png" alt="Swiss Kitchen & Wardrobe Logo"
+        /></a>
+      </div>
+
+      <a
+        href="https://wa.me/971542227275"
+        class="call-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Call Us via WhatsApp"
+      >
+        <i class="fa-solid fa-phone ringing"></i>
+      </a>
+    </header>
+
+    <!-- محتوى سياسة الخصوصية -->
+    <main class="privacy-main-section">
+      <div class="privacy-card">
+        <h1 data-i18n="pTitle">Privacy Policy</h1>
+        <p class="privacy-date" data-i18n="pDate">Last updated: July 2026</p>
+
+        <h2 data-i18n="pSec1Title">1. Information We Collect</h2>
+        <p data-i18n="pSec1Desc">
+          At Swiss Kitchen & Wardrobe, accessible from
+          swisskitchenswardrobe.com, we collect contact information such as
+          names and phone numbers when voluntarily provided by users inquiring
+          about our bespoke kitchen and wardrobe design services.
+        </p>
+
+        <h2 data-i18n="pSec2Title">2. How We Use Your Information</h2>
+        <p data-i18n="pSec2Desc">
+          We use the information we collect to communicate with clients,
+          schedule kitchen measurements, provide engineering consultations, and
+          improve our customized interior solutions across Dubai and Sharjah.
+        </p>
+
+        <h2 data-i18n="pSec3Title">3. Data Security</h2>
+        <p data-i18n="pSec3Desc">
+          We implement robust and secure digital measures to protect your
+          personal information from unauthorized access, alteration, disclosure,
+          or destruction.
+        </p>
+
+        <h2 data-i18n="pSec4Title">4. Contact Us</h2>
+        <p data-i18n="pSec4Desc">
+          If you have any questions or inquiries regarding our Privacy Policy,
+          please feel free to reach out to us directly through our official
+          communication channels or via WhatsApp.
+        </p>
+
+        <div class="privacy-actions">
+          <a href="index.html" class="hero-btn" data-i18n="backHomeBtn"
+            >Back to Home</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="site-footer">
+      <div class="footer-profile-box">
+        <a
+          href="pdf/company-profile.pdf"
+          class="pdf-download-btn"
+          download="Swiss-Kitchen-Wardrobe-Profile.pdf"
+          target="_blank"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+          <span data-i18n="downloadPdf">Download Company Profile (PDF)</span>
+        </a>
+      </div>
+      <div class="social-icons">
+        <a
+          href="https://wa.me/971542227275"
+          class="social-icon whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/swiss.kitchen.wardrobe/"
+          class="social-icon instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="footer-links">
+        <a
+          href="privacy.html"
+          class="footer-privacy-link"
+          data-i18n="privacyLink"
+          >Privacy Policy</a
+        >
+      </div>
+      <p data-i18n="footerRights">
+        © 2026 Swiss Kitchen & Wardrobe. All rights reserved.
+      </p>
+    </footer>
+
+    <script>
+      const privacyTranslations = {
+        en: {
+          privacyPageTitle: "Privacy Policy | Swiss Kitchen & Wardrobe",
+          pTitle: "Privacy Policy",
+          pDate: "Last updated: July 2026",
+          pSec1Title: "1. Information We Collect",
+          pSec1Desc:
+            "At Swiss Kitchen & Wardrobe, accessible from swisskitchenswardrobe.com, we collect contact information such as names and phone numbers when voluntarily provided by users inquiring about our bespoke kitchen and wardrobe design services.",
+          pSec2Title: "2. How We Use Your Information",
+          pSec2Desc:
+            "We use the information we collect to communicate with clients, schedule kitchen measurements, provide engineering consultations, and improve our customized interior solutions across Dubai and Sharjah.",
+          pSec3Title: "3. Data Security",
+          pSec3Desc:
+            "We implement robust and secure digital measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.",
+          pSec4Title: "4. Contact Us",
+          pSec4Desc:
+            "If you have any questions or inquiries regarding our Privacy Policy, please feel free to reach out to us directly through our official communication channels or via WhatsApp.",
+          backHomeBtn: "Back to Home",
+          downloadPdf: "Download Company Profile (PDF)",
+          privacyLink: "Privacy Policy",
+          footerRights: "© 2026 Swiss Kitchen & Wardrobe. All rights reserved.",
+        },
+        ar: {
+          privacyPageTitle: "سياسة الخصوصية | مطابخ وخزائن سويس",
+          pTitle: "سياسة الخصوصية",
+          pDate: "آخر تحديث: يوليو 2026",
+          pSec1Title: "1. المعلومات التي نجمعها",
+          pSec1Desc:
+            "في مطابخ وخزائن سويس (swisskitchenswardrobe.com)، نجمع معلومات الاتصال مثل الأسماء وأرقام الهواتف عندما يتم تقديمها طوعاً من قبل المستخدمين الذين يستفسرون عن خدماتنا في تصاميم المطابخ والخزائن.",
+          pSec2Title: "2. كيف نستخدم معلوماتك",
+          pSec2Desc:
+            "نستخدم المعلومات التي جمعناها للتواصل مع العملاء، جدولة قياسات المطابخ، تقديم الاستشارات الهندسية، وتحسين حلول التصميم الداخلي المخصصة في دبي والشارقة.",
+          pSec3Title: "3. أمان البيانات",
+          pSec3Desc:
+            "نطبق تدابير رقمية قوية وآمنة لحماية معلوماتك الشخصية من الوصول غير المرخص أو التعديل أو الإفصاح.",
+          pSec4Title: "4. تواصل معنا",
+          pSec4Desc:
+            "إذا كان لديك أي أسئلة أو استفسارات بخصوص سياسة الخصوصية الخاصة بنا، فلا تتردد في التواصل معنا مباشرة عبر قنوات الاتصال الرسمية أو عبر الواتساب.",
+          backHomeBtn: "العودة إلى الرئيسية",
+          downloadPdf: "تحميل بروفايل الشركة (PDF)",
+          privacyLink: "سياسة الخصوصية",
+          footerRights: "© 2026 جميع الحقوق محفوظة.",
+        },
+      };
+
+      let currentLang = "en";
+
+      function toggleLanguage() {
+        currentLang = currentLang === "en" ? "ar" : "en";
+
+        document.documentElement.setAttribute(
+          "dir",
+          currentLang === "ar" ? "rtl" : "ltr",
+        );
+        document.documentElement.setAttribute("lang", currentLang);
+
+        const langTextEl = document.querySelector("#langSwitcher .lang-text");
+        if (langTextEl) {
+          langTextEl.textContent = currentLang === "en" ? "عربي" : "English";
+        }
+
+        const elements = document.querySelectorAll("[data-i18n]");
+        elements.forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (privacyTranslations[currentLang][key]) {
+            el.textContent = privacyTranslations[currentLang][key];
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

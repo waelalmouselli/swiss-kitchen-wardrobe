@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="pageTitle">
+      Swiss Kitchen & Wardrobe | Luxury Kitchens & Bespoke Wardrobes in UAE
+    </title>
+    <!-- Favicon Icons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="favicon.ico" />
+
+    <!-- Meta Descriptions & SEO -->
+    <meta
+      name="description"
+      content="Discover custom luxury kitchen designs, modern kitchen cabinets, and bespoke wardrobes tailored for homes across Dubai and Sharjah. Contact Swiss Kitchen & Wardrobe today."
+    />
+    <meta
+      name="keywords"
+      content="luxury kitchens Dubai, modern kitchens Sharjah, custom wardrobes, bespoke kitchen design UAE"
+    />
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://swisskitchenswardrobe.com/" />
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Swiss Kitchen & Wardrobe | Luxury Kitchens & Bespoke Wardrobes"
+    />
+    <meta
+      property="og:description"
+      content="Custom luxury kitchen designs and bespoke wardrobes tailored for homes across Dubai and Sharjah."
+    />
+    <meta
+      property="og:image"
+      content="https://swisskitchenswardrobe.com/img/luxury-dark-kitchen-marble-island-dubai.webp"
+    />
+    <meta property="og:url" content="https://swisskitchenswardrobe.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema.org Markup (Local Business) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Swiss Kitchen & Wardrobe",
+        "image": "https://swisskitchenswardrobe.com/img/logo.png",
+        "@id": "https://swisskitchenswardrobe.com/",
+        "url": "https://swisskitchenswardrobe.com/",
+        "telephone": "+971542227275",
+        "email": "info@swisskitchenswardrobe.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sharjah",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "21:00"
+        },
+        "sameAs": ["https://www.instagram.com/swiss.kitchen.wardrobe/"]
+      }
+    </script>
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- الهيدر الاحترافي -->
+    <header class="site-header">
+      <button id="langSwitcher" class="lang-btn" onclick="toggleLanguage()">
+        <i class="fa-solid fa-globe"></i> <span class="lang-text">عربي</span>
+      </button>
+
+      <div class="logo">
+        <img
+          src="img/logo.png"
+          alt="Swiss Kitchen & Wardrobe Logo - Dubai & Sharjah"
+        />
+      </div>
+
+      <a
+        href="https://wa.me/971542227275"
+        class="call-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Call Us via WhatsApp"
+      >
+        <i class="fa-solid fa-phone ringing"></i>
+      </a>
+    </header>
+
+    <!-- قسم الهيرو (مع أنيميشن الدخول) -->
+    <section class="hero-section">
+      <div class="hero-content animate-fade-in">
+        <h1 data-i18n="heroTitle">
+          Modern kitchens with high-quality materials
+        </h1>
+        <p data-i18n="heroSubtitle">
+          Custom luxury kitchen designs and bespoke wardrobes tailored for homes
+          across Dubai and Sharjah.
+        </p>
+        <a
+          href="https://wa.me/971542227275"
+          class="hero-btn"
+          data-i18n="heroBtn"
+          >Contact us now</a
+        >
+      </div>
+    </section>
+
+    <!-- قسم المطابخ -->
+    <section class="gallery-section">
+      <h2 class="section-title" data-i18n="kitchensTitle">Modern Kitchens</h2>
+      <div class="grid-container">
+        <div class="grid-item animate-up">
+          <img
+            src="img/premium-kitchen-cabinets-marble-backsplash-sharjah.webp"
+            loading="lazy"
+            alt="Premium kitchen cabinets with marble backsplash in Sharjah"
+            onclick="openModal(this.src)"
+          />
+        </div>
+        <div class="grid-item animate-up">
+          <img
+            src="img/modern-light-wood-kitchen-design-dubai.webp"
+            loading="lazy"
+            alt="Modern light wood kitchen design in Dubai villa"
+            onclick="openModal(this.src)"
+          />
+        </div>
+        <div class="grid-item animate-up">
+          <img
+            src="img/modern-grey-kitchen-wood-panel-island.webp"
+            loading="lazy"
+            alt="Modern grey kitchen with wood panel island"
+            onclick="openModal(this.src)"
+          />
+        </div>
+      </div>
+      <div class="section-cta">
+        <p data-i18n="ctaText1">
+          Do you like this design? What about contacting us to design a better
+          one?
+        </p>
+        <a
+          href="https://wa.me/971542227275"
+          class="section-cta-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="ctaBtn"
+          >Contact Us Now</a
+        >
+      </div>
+    </section>
+
+    <!-- قسم الخزائن وغرف الغسيل -->
+    <section class="gallery-section alt-bg">
+      <h2 class="section-title" data-i18n="wardrobesTitle">
+        Wardrobes & Laundry
+      </h2>
+      <div class="grid-container">
+        <div class="grid-item animate-up">
+          <img
+            src="img/custom-walk-in-closet-wardrobe-design-dubai.webp"
+            loading="lazy"
+            alt="Custom walk-in closet wardrobe design in Dubai"
+            onclick="openModal(this.src)"
+          />
+        </div>
+        <div class="grid-item animate-up">
+          <img
+            src="img/glass-door-bedroom-wardrobe-dubai.webp"
+            loading="lazy"
+            alt="Glass door bedroom wardrobe in Dubai luxury home"
+            onclick="openModal(this.src)"
+          />
+        </div>
+        <div class="grid-item animate-up">
+          <img
+            src="img/custom-laundry-room-cabinets-sharjah.webp"
+            loading="lazy"
+            alt="Custom laundry room cabinets and storage in Sharjah"
+            onclick="openModal(this.src)"
+          />
+        </div>
+      </div>
+      <div class="section-cta">
+        <p data-i18n="ctaText2">
+          Looking for custom wardrobes? Let us create them for you
+        </p>
+        <a
+          href="https://wa.me/971542227275"
+          class="section-cta-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="ctaBtn"
+          >Contact Us Now</a
+        >
+      </div>
+    </section>
+
+    <!-- قسم موقعنا -->
+    <section class="trust-location-section">
+      <h2 class="section-title" data-i18n="locationTitle">
+        Our Location & Contact
+      </h2>
+      <div class="location-grid">
+        <div class="location-img-box animate-up">
+          <img
+            src="img/our-location.webp"
+            loading="lazy"
+            alt="Swiss Kitchen & Wardrobe Location Map in UAE"
+            class="map-img"
+          />
+        </div>
+        <div class="location-text-box animate-up">
+          <h3 data-i18n="locHeading">Visit Us or Let Us Come to You</h3>
+          <p data-i18n="locDesc">
+            Contact us to send you our exact location, or let us visit you to
+            measure your kitchen and provide free engineering consultation
+            on-site.
+          </p>
+          <a
+            href="https://wa.me/971542227275"
+            class="hero-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="locBtn"
+            >Request Measurement Visit</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- الفوتر النهائي -->
+    <footer class="site-footer">
+      <div class="footer-profile-box">
+        <a
+          href="pdf/company-profile.pdf"
+          class="pdf-download-btn"
+          download="Swiss-Kitchen-Wardrobe-Profile.pdf"
+          target="_blank"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+          <span data-i18n="downloadPdf">Download Company Profile (PDF)</span>
+        </a>
+      </div>
+      <div class="social-icons">
+        <a
+          href="https://wa.me/971542227275"
+          class="social-icon whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/swiss.kitchen.wardrobe/"
+          class="social-icon instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="footer-links">
+        <a
+          href="privacy.html"
+          class="footer-privacy-link"
+          data-i18n="privacyLink"
+          >Privacy Policy</a
+        >
+      </div>
+      <p data-i18n="footerRights">
+        © 2026 Swiss Kitchen & Wardrobe. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- النافذة المنبثقة للصورة -->
+    <div id="imageModal" class="modal">
+      <div class="modal-content-wrapper">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img id="modalImg" src="" alt="Enlarged Showcase Image" />
+        <a
+          href="https://wa.me/971542227275"
+          class="modal-contact-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="modalBtn"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
