@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://swisskitchenswardrobe.com/sitemap.xml
+Sitemap: https://swisskitchenwardrobe.com/sitemap.xml
