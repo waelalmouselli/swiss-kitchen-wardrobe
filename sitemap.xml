@@ -1,11 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://swisskitchenwardrobe.com/</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/logo.png</image:loc>
+      <image:title>Swiss Kitchen &amp; Wardrobe Logo</image:title>
+      <image:caption>شعار شركة سويس كتشن للمطابخ والخزائن الفاخرة</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/luxury-dark-kitchen-marble-island-dubai.webp</image:loc>
+      <image:title>Luxury dark kitchen with marble island in Dubai</image:title>
+      <image:caption>مطبخ داكن فاخر مع جزيرة رخامية متناسقة في دبي</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/premium-kitchen-cabinets-marble-backsplash-sharjah.webp</image:loc>
+      <image:title>Premium kitchen cabinets with marble backsplash in Sharjah</image:title>
+      <image:caption>خزائن مطابخ فاخرة مع خلفية رخامية في الشارقة</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/modern-light-wood-kitchen-design-dubai.webp</image:loc>
+      <image:title>Modern light wood kitchen design in Dubai villa</image:title>
+      <image:caption>تصميم مطبخ خشبي فاتح مودرن لفيلات دبي</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/modern-grey-kitchen-wood-panel-island.webp</image:loc>
+      <image:title>Modern grey kitchen with wood panel island</image:title>
+      <image:caption>مطبخ رمادي عصري مع جزيرة خشبية أنيقة</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/custom-walk-in-closet-wardrobe-design-dubai.webp</image:loc>
+      <image:title>Custom walk-in closet wardrobe design in Dubai</image:title>
+      <image:caption>تصميم وتنفيذ غرف تبديل ملابس وخزائن فاخرة في دبي</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/glass-door-bedroom-wardrobe-dubai.webp</image:loc>
+      <image:title>Glass door bedroom wardrobe in Dubai luxury home</image:title>
+      <image:caption>خزائن غرف نوم بأبواب زجاجية وإضاءة داخلية في دبي</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/custom-laundry-room-cabinets-sharjah.webp</image:loc>
+      <image:title>Custom laundry room cabinets and storage in Sharjah</image:title>
+      <image:caption>خزائن غرف غسيل مخصصة وعملية في الشارقة ودبي</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://swisskitchenwardrobe.com/img/our-location.webp</image:loc>
+      <image:title>Swiss Kitchen &amp; Wardrobe Location Map in UAE</image:title>
+      <image:caption>خريطة موقع معرض مطابخ وخزائن سويس في الإمارات</image:caption>
+    </image:image>
   </url>
+
   <url>
     <loc>https://swisskitchenwardrobe.com/privacy.html</loc>
     <lastmod>2026-07-21</lastmod>
