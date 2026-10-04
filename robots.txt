@@ -1,4 +1,11 @@
+# ========================================================
+# Robots.txt for Swiss Kitchen & Wardrobe
+# https://swisskitchenwardrobe.com
+# ========================================================
+
 User-agent: *
 Allow: /
+Disallow: /pdf/company-profile.pdf
 
+# XML Sitemap
 Sitemap: https://swisskitchenwardrobe.com/sitemap.xml
